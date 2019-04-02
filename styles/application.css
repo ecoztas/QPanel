@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/**
+ * @name            QPanel
+ * @name            application.css
+ * @version         1.0.0
+ * @description     Bootstrap Admin Panel
+ * @repository      https://github.com/emrecanoztas-com/QPanel
+ * @author          Emre Can ÖZTAŞ (ecoztas) <me@emrecanoztas.com>
+ * @license         MIT
+ */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700,900");
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  height: 100%;
+  box-sizing: border-box;
+  color: #000;
+  background-color: #fff;
+  font-family: "Source Sans Pro", sans-serif; }
+
+#l_page {
+  width: 100%;
+  display: flex; }
+
+#l_page #l__sidebar {
+  min-width: 200px !important;
+  max-width: 200px !important;
+  transition: all 0.4s;
+  min-height: calc(100vh - 56px) !important;
+  position: relative; }
+
+#l__sidebar.launch {
+  margin-left: -200px; }
+
+@media (max-width: 768px) {
+  #l__sidebar {
+    margin-left: -200px; }
+  #l__sidebar.launch {
+    margin-left: 0; } }
+
+#l_page #l__content {
+  transition: all 0.4s;
+  min-height: calc(100% - 56px) !important;
+  margin: 0;
+  padding-bottom: 6em;
+  width: 100%;
+  display: flex;
+  position: relative; }
+
+.m_navbar {
+  height: 56px;
+  max-height: 56px !important; }
+  .m_navbar .dropdown-toggle::after {
+    content: none; }
+  .m_navbar .dropdown-menu {
+    font-size: 14px; }
+  .m_navbar .dropdown-item {
+    padding-left: 0.9rem;
+    padding-right: 0.9rem; }
+
+.m_dropdown a[data-toggle="collapse"] {
+  position: relative; }
+
+.m_dropdown .dropdown-toggle::after {
+  transition: all 0.4s;
+  display: block;
+  position: absolute;
+  top: 32%;
+  right: 20px;
+  border: none;
+  font-weight: 600;
+  content: '\f054';
+  font-family: 'Font Awesome 5 Free';
+  font-size: 10px; }
+
+.m_dropdown .dropdown-toggle[aria-expanded="true"]:after {
+  transform: rotate(90deg); }
+
+.m_menu ul li a {
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: inherit; }
+
+.m_menu ul li a:hover {
+  color: #ffffff;
+  background-color: #2e3439;
+  text-decoration: none; }
+
+.m_menu ul li.active > a,
+.m_menu ul a[aria-expanded="true"] {
+  color: #ffffff;
+  background: #2e3439; }
+
+.m_menu ul ul li {
+  border-top: none;
+  border-bottom: none; }
+
+.m_menu ul ul a {
+  padding-left: 40px;
+  font-size: 13px;
+  color: #909698;
+  background-color: #2e3439;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important; }
+
+#l__sidebar .m_main {
+  width: 100%;
+  height: 100%;
+  padding-top: 0px;
+  margin: 0px; }
+
+#l__content .m_main {
+  width: 100%;
+  height: 100%;
+  padding-top: 15px;
+  margin: 0px; }
+
+.m_footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  color: #000000;
+  background: #e9ecef;
+  padding: 20px;
+  text-align: center; }

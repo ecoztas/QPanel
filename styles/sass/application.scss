@@ -1,0 +1,25 @@
+/**
+ * @name            QPanel
+ * @name            application.css
+ * @version         1.0.0
+ * @description     Bootstrap Admin Panel
+ * @repository      https://github.com/emrecanoztas-com/QPanel
+ * @author          Emre Can ÖZTAŞ (ecoztas) <me@emrecanoztas.com>
+ * @license         MIT
+ */
+
+// Karakter setini tanımla (UTF-8)
+@charset 'utf-8';
+
+// Gerekli dosyaları sayfaya ekle (application.css)
+@import 'theme/_fonts.scss';
+@import 'theme/_configs.scss';
+@import 'base/_elements.scss';
+@import 'layout/_page.scss';
+@import 'layout/_sidebar.scss';
+@import 'layout/_content.scss';
+@import 'module/_navbar.scss';
+@import 'module/_dropdown.scss';
+@import 'module/_menu.scss';
+@import 'module/_main.scss';
+@import 'module/_footer.scss';

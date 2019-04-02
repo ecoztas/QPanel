@@ -1,0 +1,11 @@
+#l_page {
+    #l__content {
+        transition: $base-transition;
+        min-height: calc(100% - #{$navbar-height}) !important;
+        margin: 0;
+        padding-bottom: 6em;
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+}

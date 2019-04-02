@@ -1,0 +1,27 @@
+#l_page {
+    #l__sidebar {
+        min-width: $sidebar-width !important;
+        max-width: $sidebar-width !important;
+        transition: $base-transition;
+        min-height: calc(100vh - #{$navbar-height}) !important;
+        position: relative;
+    }
+}
+
+#l__sidebar {
+    &.launch {
+        margin-left: - $sidebar-width;
+    }
+}
+
+@media (max-width: $screen-size) {
+    #l__sidebar {
+        margin-left: - $sidebar-width;
+    }
+
+    #l__sidebar {
+        &.launch {
+            margin-left: 0;
+        }
+    }
+}

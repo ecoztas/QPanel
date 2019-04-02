@@ -1,0 +1,24 @@
+{
+    "name": "QPanel",
+    "version": "1.0.0",
+    "description": "Bootstrap - Admin Panel Template",
+    "main": "index.js",
+    "repository": "https://github.com/emrecanoztas-com/QPanel",
+    "author": "Emre Can ÖZTAŞ <me@emrecanoztas.com>",
+    "license": "MIT",
+    "private": false,
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.8.0",
+        "gulp": "^4.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-cssmin": "^0.2.0",
+        "gulp-plumber": "^1.2.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-uglify": "^3.0.1"
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "jquery": "^3.3.1"
+    }
+}

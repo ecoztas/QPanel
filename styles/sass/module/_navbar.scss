@@ -1,0 +1,17 @@
+.m_navbar {
+    height: $navbar-height;
+    max-height: $navbar-height !important;
+
+    .dropdown-toggle::after {
+        content: none;
+    }
+
+    .dropdown-menu {
+        font-size: 14px;
+    }
+
+    .dropdown-item {
+        padding-left: 0.9rem;
+        padding-right: 0.9rem;
+    }
+}

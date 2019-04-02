@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kaydol</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Emre Can ÖZTAŞ">
+    <link rel="shortcut icon" type="image/png" href="images/_primary/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/_primary/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/_primary/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/_primary/favicon-16x16.png">
+    <link rel="manifest" href="images/_primary/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/_primary/apple-touch-icon.png">
+    <link rel="mask-icon" href="images/_primary/safari-pinned-tab.svg" color="#343a40">
+    <link rel="shortcut icon" href="images/_primary/favicon.ico">
+    <meta name="msapplication-TileColor" content="#343a40">
+    <meta name="msapplication-TileImage" content="images/_primary/mstile-144x144.png">
+    <meta name="msapplication-config" content="images/_primary/browserconfig.xml">
+    <meta name="theme-color" content="#343a40">
+    <!-- Style file(s). -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="styles/application.min.css">
+</head>
+
+<body class="bg-dark">
+    <div class="container">
+        <div class="row mt-lg-5 pb-3">
+            <div class="col offset-md-3 col-md-6">
+                <div class="text-center">
+                    <img src="images/QPanel_giris.png" alt="QPanel - Logo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col offset-md-3 col-md-6">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <form method="" action="#!">
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <label class="text-muted" for="adiniz">Adınız</label>
+                                            <input type="text" name="adiniz" id="adiniz" class="form-control form-control-sm" autofocus required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <label class="text-muted" for="soyadiniz">Soyadınız</label>
+                                            <input type="text" name="soyadiniz" id="soyadiniz" class="form-control form-control-sm" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-label-group">
+                                    <label class="text-muted" for="kullanici-adiniz">Kullanıcı adınız</label>
+                                    <input type="email" name="kullanici-adiniz" id="kullanici-adiniz" class="form-control form-control-sm" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-label-group">
+                                    <label class="text-muted" for="eposta">E - Posta Adresiniz</label>
+                                    <input type="email" name="eposta" id="eposta" class="form-control form-control-sm" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <label class="text-muted" for="sifre-1">Şifre</label>
+                                            <input type="password" name="sifre-1" id="sifre1" class="form-control form-control-sm" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <label class="text-muted" for="sifre-2">Şifre (Tekrar)</label>
+                                            <input type="password" name="sifre-2" id="sifre-2" class="form-control form-control-sm" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="btn btn-success btn-block" href="#!">Kaydı tamamla</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col offset-md-4 col-md-4 mt-2">
+                <div class="text-center">
+                    <small><a href="./" class="text-muted">Ana sayfa</a></small>
+                    <small class="text-muted ml-1 mr-1">|</small>
+                    <small><a href="qpanel.html" class="text-muted">Giriş yap</a></small>
+                    <small class="text-muted ml-1 mr-1">|</small>
+                    <small><a href="sifremi-unutum.html" class="text-muted">Şifremi unuttum!</a></small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Script file(s). -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/application.js"></script>
+</body>
+
+</html>

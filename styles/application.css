@@ -28,31 +28,29 @@ body {
 #l_page {
   width: 100%;
   display: flex; }
-
-#l_page #l__sidebar {
-  min-width: 200px !important;
-  max-width: 200px !important;
-  transition: all 0.4s;
-  min-height: calc(100vh - 56px) !important;
-  position: relative; }
+  #l_page #l__sidebar {
+    min-width: 216px !important;
+    max-width: 216px !important;
+    transition: all 0.4s;
+    min-height: calc(100vh - 56px) !important;
+    position: relative; }
+  #l_page #l__content {
+    transition: all 0.4s;
+    min-height: calc(100% - 56px) !important;
+    margin: 0;
+    padding-bottom: 6em;
+    width: 100%;
+    display: flex;
+    position: relative; }
 
 #l__sidebar.launch {
-  margin-left: -200px; }
+  margin-left: -216px; }
 
 @media (max-width: 768px) {
   #l__sidebar {
-    margin-left: -200px; }
+    margin-left: -216px; }
   #l__sidebar.launch {
     margin-left: 0; } }
-
-#l_page #l__content {
-  transition: all 0.4s;
-  min-height: calc(100% - 56px) !important;
-  margin: 0;
-  padding-bottom: 6em;
-  width: 100%;
-  display: flex;
-  position: relative; }
 
 .m_navbar {
   height: 56px;

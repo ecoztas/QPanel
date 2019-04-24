@@ -1,13 +1,3 @@
-@charset "UTF-8";
-/**
- * @name            QPanel
- * @name            application.css
- * @version         1.0.0
- * @description     Bootstrap Admin Panel
- * @repository      https://github.com/emrecanoztas-com/QPanel
- * @author          Emre Can ÖZTAŞ (ecoztas) <me@emrecanoztas.com>
- * @license         MIT
- */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700,900");
 *,
 *:before,
